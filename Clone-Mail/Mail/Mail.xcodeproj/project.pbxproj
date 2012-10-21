@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC7610481634BB0C001FA0BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7610471634BB0C001FA0BA /* UIKit.framework */; };
+		DC76104A1634BB0C001FA0BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7610491634BB0C001FA0BA /* Foundation.framework */; };
+		DC76104C1634BB0C001FA0BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC76104B1634BB0C001FA0BA /* CoreGraphics.framework */; };
+		DC7610521634BB0C001FA0BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC7610501634BB0C001FA0BA /* InfoPlist.strings */; };
+		DC7610541634BB0C001FA0BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7610531634BB0C001FA0BA /* main.m */; };
+		DC7610581634BB0C001FA0BA /* MAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7610571634BB0C001FA0BA /* MAppDelegate.m */; };
+		DC76105A1634BB0D001FA0BA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7610591634BB0D001FA0BA /* Default.png */; };
+		DC76105C1634BB0D001FA0BA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC76105B1634BB0D001FA0BA /* Default@2x.png */; };
+		DC76105E1634BB0D001FA0BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC76105D1634BB0D001FA0BA /* Default-568h@2x.png */; };
+		DC7610611634BB0D001FA0BA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC76105F1634BB0D001FA0BA /* MainStoryboard.storyboard */; };
+		DC7610641634BB0D001FA0BA /* MViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7610631634BB0D001FA0BA /* MViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC7610431634BB0C001FA0BA /* Mail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7610471634BB0C001FA0BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC7610491634BB0C001FA0BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC76104B1634BB0C001FA0BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC76104F1634BB0C001FA0BA /* Mail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mail-Info.plist"; sourceTree = "<group>"; };
+		DC7610511634BB0C001FA0BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC7610531634BB0C001FA0BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC7610551634BB0C001FA0BA /* Mail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mail-Prefix.pch"; sourceTree = "<group>"; };
+		DC7610561634BB0C001FA0BA /* MAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAppDelegate.h; sourceTree = "<group>"; };
+		DC7610571634BB0C001FA0BA /* MAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAppDelegate.m; sourceTree = "<group>"; };
+		DC7610591634BB0D001FA0BA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DC76105B1634BB0D001FA0BA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DC76105D1634BB0D001FA0BA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DC7610601634BB0D001FA0BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DC7610621634BB0D001FA0BA /* MViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MViewController.h; sourceTree = "<group>"; };
+		DC7610631634BB0D001FA0BA /* MViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC7610401634BB0C001FA0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7610481634BB0C001FA0BA /* UIKit.framework in Frameworks */,
+				DC76104A1634BB0C001FA0BA /* Foundation.framework in Frameworks */,
+				DC76104C1634BB0C001FA0BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC7610381634BB0C001FA0BA = {
+			isa = PBXGroup;
+			children = (
+				DC76104D1634BB0C001FA0BA /* Mail */,
+				DC7610461634BB0C001FA0BA /* Frameworks */,
+				DC7610441634BB0C001FA0BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7610441634BB0C001FA0BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7610431634BB0C001FA0BA /* Mail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7610461634BB0C001FA0BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC7610471634BB0C001FA0BA /* UIKit.framework */,
+				DC7610491634BB0C001FA0BA /* Foundation.framework */,
+				DC76104B1634BB0C001FA0BA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC76104D1634BB0C001FA0BA /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				DC7610561634BB0C001FA0BA /* MAppDelegate.h */,
+				DC7610571634BB0C001FA0BA /* MAppDelegate.m */,
+				DC76105F1634BB0D001FA0BA /* MainStoryboard.storyboard */,
+				DC7610621634BB0D001FA0BA /* MViewController.h */,
+				DC7610631634BB0D001FA0BA /* MViewController.m */,
+				DC76104E1634BB0C001FA0BA /* Supporting Files */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+		DC76104E1634BB0C001FA0BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC76104F1634BB0C001FA0BA /* Mail-Info.plist */,
+				DC7610501634BB0C001FA0BA /* InfoPlist.strings */,
+				DC7610531634BB0C001FA0BA /* main.m */,
+				DC7610551634BB0C001FA0BA /* Mail-Prefix.pch */,
+				DC7610591634BB0D001FA0BA /* Default.png */,
+				DC76105B1634BB0D001FA0BA /* Default@2x.png */,
+				DC76105D1634BB0D001FA0BA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC7610421634BB0C001FA0BA /* Mail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7610671634BB0D001FA0BA /* Build configuration list for PBXNativeTarget "Mail" */;
+			buildPhases = (
+				DC76103F1634BB0C001FA0BA /* Sources */,
+				DC7610401634BB0C001FA0BA /* Frameworks */,
+				DC7610411634BB0C001FA0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mail;
+			productName = Mail;
+			productReference = DC7610431634BB0C001FA0BA /* Mail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC76103A1634BB0C001FA0BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = M;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = rakib;
+			};
+			buildConfigurationList = DC76103D1634BB0C001FA0BA /* Build configuration list for PBXProject "Mail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC7610381634BB0C001FA0BA;
+			productRefGroup = DC7610441634BB0C001FA0BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC7610421634BB0C001FA0BA /* Mail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC7610411634BB0C001FA0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7610521634BB0C001FA0BA /* InfoPlist.strings in Resources */,
+				DC76105A1634BB0D001FA0BA /* Default.png in Resources */,
+				DC76105C1634BB0D001FA0BA /* Default@2x.png in Resources */,
+				DC76105E1634BB0D001FA0BA /* Default-568h@2x.png in Resources */,
+				DC7610611634BB0D001FA0BA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC76103F1634BB0C001FA0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7610541634BB0C001FA0BA /* main.m in Sources */,
+				DC7610581634BB0C001FA0BA /* MAppDelegate.m in Sources */,
+				DC7610641634BB0D001FA0BA /* MViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC7610501634BB0C001FA0BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7610511634BB0C001FA0BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC76105F1634BB0D001FA0BA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7610601634BB0D001FA0BA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC7610651634BB0D001FA0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC7610661634BB0D001FA0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC7610681634BB0D001FA0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mail/Mail-Prefix.pch";
+				INFOPLIST_FILE = "Mail/Mail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC7610691634BB0D001FA0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mail/Mail-Prefix.pch";
+				INFOPLIST_FILE = "Mail/Mail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC76103D1634BB0C001FA0BA /* Build configuration list for PBXProject "Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7610651634BB0D001FA0BA /* Debug */,
+				DC7610661634BB0D001FA0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7610671634BB0D001FA0BA /* Build configuration list for PBXNativeTarget "Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7610681634BB0D001FA0BA /* Debug */,
+				DC7610691634BB0D001FA0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC76103A1634BB0C001FA0BA /* Project object */;
+}
